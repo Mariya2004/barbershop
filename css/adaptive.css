@@ -1,0 +1,893 @@
+@media screen and (min-width: 1921px) {
+    body {
+        background-size: 100%;
+    }
+}
+
+/* 1024-1199*/
+@media screen and (max-width: 1199px) {
+    #header, #main, #block-container, #info-container, #instagram-info-container, #price, #sale, #masters, #location, #footer {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    #header {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #main #main-info {
+        margin-left: 80px;
+    }
+
+    #main #strong {
+        font-size: 150px;
+        right: 20px;
+    }
+
+    #main #main-info #club {
+        font-size: 150px;
+    }
+
+    #main #main-image {
+        width: 550px;
+        margin-top: 107px;
+    }
+
+    #main #main-image img {
+        max-width: 100%;
+    }
+
+    #main #main-info #main-info-title {
+        font-size: 35px;
+    }
+
+    #main #main-info #main-info-text {
+        font-size: 19px;
+    }
+
+    #info #info-container #info-info #info-image {
+        width: 500px;
+    }
+
+    #info #info-container #info-info #info-image #info-image-img {
+        width: 450px;
+    }
+
+    #info #info-container #info-info #info-image #info-image-img img {
+        max-width: 100%;
+    }
+
+    #info #info-container #info-info #info-text {
+        margin-left: 0;
+    }
+
+    #info #info-container #info-info #info-image .info-image-text span {
+        font-size: 16px;
+        margin-left: 12px;
+    }
+
+    #instagram-info #instagram-info-container #instagram-title {
+        font-size: 23px;
+        width: 348px;
+        margin-right: 0;
+    }
+
+    #instagram-info #instagram-info-container {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #instagram-info #instagram-info-container #instagram-action {
+        margin-right: 70px;
+    }
+
+    #price-container {
+        width: 100%;
+    }
+
+    #price #price-container #price-title {
+        margin-left: 80px;
+    }
+
+    #sale #sale-container {
+        width: 100%;
+    }
+
+    #sale #sale-container #sale-info {
+        width: 780px;
+    }
+
+    #sale #sale-container #sale-info #sale-action {
+        margin-right: 0;
+    }
+
+    #masters #masters-container {
+        width: 100%;
+    }
+
+    #masters #masters-container .our-masters {
+        width: 900px;
+    }
+
+    #location #location-container {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    #footer #footer-container {
+        width: 100%;
+        padding: 50px 0;
+    }
+
+    #popup-sale #popup-sale-text {
+        font-size: 23px;
+        width: 550px;
+    }
+
+    #reservation #reservation-content form {
+        width: 710px;
+    }
+
+    #reservation {
+        width: 700px;
+    }
+}
+
+/*800-969*/
+@media screen and (max-width: 969px){
+   #price #price-container #services {
+       width: 600px;
+       justify-content: center;
+       margin: 0 auto;
+       flex-wrap: wrap;
+   }
+}
+
+@media screen and (max-width: 1023px){
+    #masters #masters-container .our-masters {
+        width: 880px;
+        padding: 0;
+    }
+
+    .slick-list {
+        width: 740px;
+    }
+}
+
+/*768-1023*/
+@media screen and (max-width: 1023px) {
+    #header {
+        padding: 40px 20px;
+    }
+
+    #menu {
+        width: 255px;
+    }
+
+    .logo {
+        font-size: 23px;
+    }
+
+    #main #main-image {
+        margin-top: 60px;
+    }
+
+    #main #strong {
+        font-size: 100px;
+        line-height: 100px;
+    }
+
+    #main #main-info #club {
+        font-size: 100px;
+        line-height: 100px;
+        margin-top: 25px;
+    }
+
+    #main #main-info #main-info-title {
+        font-size: 24px;
+        margin-top: 110px;
+    }
+
+    #main #main-info #main-info-text {
+        font-size: 14px;
+    }
+
+    #line {
+        border-right: 0;
+    }
+
+    #block #block-container {
+        padding: 40px 20px;
+        margin-top: -5px;
+    }
+
+    #block #block-container .block-info {
+        margin-right: 0;
+    }
+
+    #block #block-container .block-info .block-image {
+        width: 45px;
+    }
+
+    #block #block-container .block-info .block-image img {
+        width: 100%;
+    }
+
+    #block #block-container .block-info .block-text {
+        font-size: 15px;
+        margin-left: 13px;
+    }
+
+    #info #info-container {
+        padding: 50px 20px;
+    }
+
+    #info #info-container #info-title {
+        font-size: 26px;
+    }
+
+    #info #info-container #info-info {
+        flex-wrap: wrap;
+    }
+
+    #info #info-container #info-info #info-image {
+        margin: 0 auto;
+    }
+
+    #info #info-container #info-info #info-image #info-image-img {
+        margin: auto auto 20px auto;
+    }
+
+    #info #info-container #info-info #info-image .info-image-text {
+        width: 527px;
+    }
+
+    #info #info-container #info-info #info-text {
+        margin: 0 auto;
+        padding-right: 0;
+        padding-left: 30px;
+    }
+
+    #info #info-container #info-info #info-image .info-image-text span {
+        font-size: 14px;
+    }
+
+    #info #info-container #info-info #info-image .info-image-text {
+        margin-left: 30px;
+    }
+
+    #info #info-container #info-info #info-text .info-text-text {
+        text-align: center;
+    }
+
+    #instagram-info #instagram-info-container {
+        padding: 40px 20px;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    #instagram-info #instagram-info-container #instagram-title {
+        font-size: 20px;
+        width: 328px;
+        margin-left: 0;
+    }
+
+    #price #price-container {
+        border-left: 0;
+    }
+
+    #price #price-container #price-title {
+        font-size: 29px;
+        margin-left: 0;
+    }
+
+
+    #price #price-container #services .prices .service:last-child {
+        margin-bottom: 20px;
+    }
+
+    #sale #sale-container #sale-text {
+        font-size: 20px;
+    }
+
+    #sale #sale-container #sale-info {
+        width: 660px;
+    }
+
+    #masters #masters-container #masters-text {
+        width: 694px;
+    }
+
+    #masters #masters-container .our-masters {
+        width: 840px;
+        padding: 0;
+    }
+
+    #masters #masters-container {
+        border-right: 0;
+    }
+
+    #sale #sale-container {
+        padding: 40px 0;
+    }
+
+    #instagram-info #instagram-info-container #instagram-action {
+        margin-right: 0;
+    }
+
+    #reservation #reservation-content form {
+        width: 475px;
+    }
+
+    #reservation {
+        width: 570px;
+        padding: 40px;
+    }
+
+    #reservation-sent {
+        width: 570px;
+    }
+
+    .slick-dots {
+        width: 320px;
+    }
+
+    .slick-prev:before {
+        left: 265px;
+    }
+
+    .slick-next:before {
+        right: 255px;
+    }
+
+}
+
+@media screen and (max-width: 846px) {
+    #masters #masters-container .our-masters {
+        width: 790px;
+    }
+
+    .slick-list {
+        width: 690px;
+    }
+
+    .slick-prev:before {
+        left: 240px;
+        top: 264px;
+    }
+
+    .slick-next:before {
+        right: 230px;
+        top: 264px;
+    }
+}
+
+@media screen and (max-width: 827px) {
+    #masters #masters-container .our-masters {
+        width: 315px;
+    }
+
+    .slick-list {
+        width: 240px;
+    }
+
+    .slick-prev:before {
+        left: -10px;
+        top: -10px;
+    }
+
+    .slick-next:before {
+        right: -10px;
+        top: -10px;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    #header {
+        flex-wrap: wrap;
+    }
+
+    #header .logo {
+        order: 1;
+    }
+
+    #header #menu {
+        order: 3;
+        width: 100%;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    #header #menu a {
+        margin: 0 20px;
+    }
+
+    #header #number {
+        order: 2;
+    }
+}
+
+/* 425 - 767 */
+@media screen and (max-width: 767px) {
+    #main {
+        flex-wrap: wrap;
+    }
+
+    #main #strong {
+        font-size: 65px;
+        line-height: 50px;
+    }
+
+    #main #main-info #club {
+        font-size: 86px;
+        line-height: 50px;
+    }
+
+    #main #main-image {
+        width: 270px;
+        margin: 10px auto auto auto;
+    }
+
+    #main #main-info {
+        margin: 0 auto;
+    }
+
+    #main #main-info #main-info-title {
+        margin: 65px auto auto auto;
+        text-align: center;
+    }
+
+    #main #main-info #main-info-text {
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    #main #main-info #main-action {
+        text-align: center;
+    }
+
+    #block #block-container .block-info .block-image {
+        width: 20px;
+    }
+
+    #block #block-container .block-info .block-text {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    #block #block-container {
+        margin-top: -5px;
+    }
+
+    #info #info-container #info-title {
+        width: 347px;
+        font-size: 21px;
+    }
+
+    #info #info-container #info-info #info-image #info-image-img {
+        width: 380px;
+    }
+
+    #info #info-container #info-info #info-image .info-image-text {
+        width: 384px;
+        margin: 25px auto;
+    }
+
+    #info #info-container #info-info #info-text {
+        padding-left: 0;
+    }
+
+    #info #info-container #info-info #info-text .info-text-text {
+        font-size: 15px;
+        text-align: center;
+        width: 364px;
+    }
+
+    #info #info-container #info-info #info-text #info-man img {
+        width: 150px;
+    }
+
+    #instagram-info #instagram-info-container {
+        flex-wrap: wrap;
+    }
+    #instagram-info #instagram-info-container #instagram-title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #price {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    #price #price-container #services {
+        width: 258px;
+        padding-left: 0;
+    }
+
+    #sale #sale-container #sale-info {
+        flex-wrap: wrap;
+        width: 393px;
+        justify-content: center;
+    }
+
+    #sale #sale-container #sale-text {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #sale #sale-container #sale-info #sale-action {
+        text-align: center;
+    }
+
+    #masters {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #masters #masters-container #masters-text {
+        width: 323px;
+        font-size: 15px;
+    }
+
+    #masters #masters-container #masters-title {
+        margin-bottom: 40px;
+        font-size: 29px;
+    }
+
+    #masters #masters-container .our-masters {
+        width: 310px;
+    }
+
+    .slick-dots {
+        width: 285px;
+    }
+
+    #location #location-container {
+        flex-wrap: wrap;
+    }
+
+    #location-info {
+        margin: 0 auto;
+    }
+
+    #time {
+        margin: 40px auto auto auto;
+    }
+
+    #mail {
+        margin-top: 25px;
+    }
+
+    #location-map {
+        margin: 25px auto auto auto;
+        width: 390px;
+        height: 390px;
+    }
+
+    #location #location-container {
+        padding-bottom: 40px;
+    }
+
+    #footer #footer-container {
+        padding: 40px 0;
+        margin-top: -2px;
+    }
+
+    #popup-sale #popup-sale-text {
+        font-size: 16px;
+        width: 290px;
+    }
+
+    #reservation #reservation-content form {
+        width: 300px;
+        justify-content: center;
+    }
+
+    #reservation-title {
+        font-size: 15px;
+    }
+
+    #reservation #reservation-content {
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #reservation {
+        width: 296px;
+    }
+
+    #reservation-sent {
+        padding: 20px;
+    }
+
+    #reservation-sent-title {
+        font-size: 20px;
+    }
+
+    #reservation-sent-text {
+        font-size: 15px;
+        width: 290px;
+        margin: 45px auto auto auto;
+    }
+
+    .slick-next:before {
+        right: -15px;
+    }
+}
+
+/*375-424*/
+@media screen and (max-width: 424px){
+    #burger {
+        display: block;
+    }
+
+    #header {
+        position: relative;
+    }
+
+    #menu {
+        top: 70px;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 40;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+        display: none;
+    }
+
+    #header #menu.menu-open {
+        background: rgba(0, 0, 0, 0.8);
+        display: flex;
+        flex-direction: column;
+        left: 0;
+    }
+
+    #header #menu a {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    #header.menu-open #menu {
+        display: block;
+    }
+
+    #header #number  {
+        width: 134px;
+    }
+
+    .phone-number {
+        font-size: 13px;
+    }
+
+    #info #info-container #info-info #info-image {
+        width: 350px;
+    }
+
+    #info #info-container #info-title {
+        width: 300px;
+        font-size: 15px;
+    }
+
+    #info #info-container #info-info #info-image .info-image-text {
+        width: 290px;
+    }
+
+    #info #info-container #info-info #info-image #info-image-img {
+        width: 300px;
+    }
+
+    #info #info-container #info-info #info-image .info-image-text span {
+        font-size: 10px;
+    }
+
+    #info #info-container #info-info #info-text .info-text-text {
+        font-size: 11px;
+        width: 300px;
+    }
+
+    #info #info-container #info-info #info-text #info-man img {
+        width: 115px;
+    }
+
+    #instagram-info #instagram-info-container #instagram-title {
+        width: 246px;
+        font-size: 15px;
+    }
+
+    .btn {
+        width: 210px;
+        height: 55px;
+        font-size: 17px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    #instagram-info #instagram-info-container {
+        padding: 20px;
+    }
+
+    #price #price-container #price-title {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    #price #price-container #services .prices .price-title {
+        font-size: 20px;
+    }
+
+    #price #price-container #services .prices .service .service-description .service-title {
+        font-size: 14px;
+    }
+
+    #price #price-container #services .prices .service .service-description .service-text {
+        font-size: 10px;
+    }
+
+    #price #price-container #services .prices .service .service-price {
+        font-size: 14px;
+    }
+
+    #price #price-container #services .prices .service {
+        margin-bottom: 30px;
+        width: 300px;
+    }
+
+    #sale #sale-container #sale-info {
+        width: 300px;
+    }
+
+    #sale #sale-container #sale-text {
+        font-size: 15px;
+        width: 228px;
+    }
+
+    #sale #sale-container {
+        padding: 30px 0;
+    }
+
+    #masters #masters-container #masters-title {
+        font-size: 21px;
+    }
+
+    #masters #masters-container #masters-text {
+        width: 300px;
+        font-size: 11px;
+    }
+
+    #masters #masters-container .our-masters {
+        width: 300px;
+    }
+
+    #reservation {
+        width: 255px;
+    }
+
+    .slick-list {
+        width: 220px;
+    }
+
+    .slick-prev:before {
+        left: 5px;
+    }
+
+    .slick-next:before {
+        right: 5px;
+    }
+}
+
+/*320-374*/
+@media screen and (max-width: 374px){
+    #header {
+        padding: 30px 20px;
+    }
+
+    #header .logo {
+        font-size: 13px;
+    }
+
+    #header #number {
+        width: 115px;
+    }
+
+    #header #number #phone img {
+        width: 14px;
+    }
+
+    #header #number .phone-number {
+        font-size: 11px;
+    }
+
+    #main #strong {
+        font-size: 40px;
+        line-height: 40px;
+        top: -20px;
+    }
+
+    #main #main-info #club {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    #main #main-info #main-info-title {
+        font-size: 20px;
+    }
+
+    #info #info-container #info-info {
+        margin-top: 40px;
+    }
+
+    #info #info-container #info-info #info-image #info-image-img {
+        width: 280px;
+    }
+
+    #info #info-container #info-info #info-image {
+        width: 275px;
+    }
+
+    #info #info-container #info-info #info-text {
+        width: 280px;
+    }
+
+    #info #info-container #info-info #info-text .info-text-text {
+        width: 275px;
+    }
+
+    #info #info-container #info-title {
+        width: 280px;
+    }
+
+    #main #main-image {
+        width: 200px;
+        margin-top: -37px;
+    }
+
+    #main #main-info #main-info-title {
+        margin-top: 20px;
+    }
+
+    #masters #masters-container #masters-text {
+        width: 280px;
+    }
+
+    #masters #masters-container .our-masters {
+        width: 268px;
+    }
+
+    #masters #masters-container #masters-text {
+        width: 270px;
+    }
+
+    #location-map {
+        height: 260px;
+    }
+
+    #reservation {
+        width: 205px;
+    }
+
+    #reservation-sent-text {
+        width: 266px;
+    }
+
+    .slick-list {
+        width: 190px;
+    }
+
+    .slick-prev:before {
+        left: 8px;
+    }
+
+    .slick-prev:before {
+        right: 8px;
+    }
+}
