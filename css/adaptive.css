@@ -128,12 +128,28 @@
         width: 550px;
     }
 
-    #reservation #reservation-content form {
+    #reservation-container #reservation #reservation-content form {
         width: 710px;
     }
 
-    #reservation {
+    #reservation-container #reservation {
         width: 700px;
+    }
+
+    .slick-prev:before {
+        left: 285px;
+    }
+
+    .slick-next:before {
+        right: 275px;
+    }
+
+    .slick-list {
+        width: 790px;
+    }
+
+    #masters #masters-container .our-masters {
+        width: 935px;
     }
 }
 
@@ -235,7 +251,7 @@
     }
 
     #info #info-container #info-info #info-image {
-        margin: 0 auto;
+        margin: auto auto 25px auto;
     }
 
     #info #info-container #info-info #info-image #info-image-img {
@@ -253,7 +269,7 @@
     }
 
     #info #info-container #info-info #info-image .info-image-text span {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     #info #info-container #info-info #info-image .info-image-text {
@@ -285,6 +301,9 @@
         margin-left: 0;
     }
 
+    #price #price-container #services {
+        padding-left: 0;
+    }
 
     #price #price-container #services .prices .service:last-child {
         margin-bottom: 20px;
@@ -319,17 +338,17 @@
         margin-right: 0;
     }
 
-    #reservation #reservation-content form {
+    #reservation-container #reservation #reservation-content form {
         width: 475px;
     }
 
-    #reservation {
+    #reservation-container #reservation {
         width: 570px;
         padding: 40px;
     }
 
     #reservation-sent {
-        width: 570px;
+        width: 370px;
     }
 
     .slick-dots {
@@ -338,15 +357,17 @@
 
     .slick-prev:before {
         left: 265px;
+        top: 264px;
     }
 
     .slick-next:before {
         right: 255px;
+        top: 264px;
     }
 
 }
 
-@media screen and (max-width: 846px) {
+/*@media screen and (max-width: 846px) {
     #masters #masters-container .our-masters {
         width: 790px;
     }
@@ -364,29 +385,69 @@
         right: 230px;
         top: 264px;
     }
-}
+}*/
 
-@media screen and (max-width: 827px) {
+@media screen and (max-width: 875px) {
     #masters #masters-container .our-masters {
-        width: 315px;
+        width: 390px;
     }
 
     .slick-list {
-        width: 240px;
+        width: 290px;
     }
 
     .slick-prev:before {
-        left: -10px;
-        top: -10px;
+        left: 40px;
+        top: 263px;
     }
 
     .slick-next:before {
-        right: -10px;
-        top: -10px;
+        right: 30px;
+        top: 263px;
+    }
+
+    .slick-active {
+        font-family: Lora-Regular, sans-serif;
+        font-size: 25px;
+        color: white;
+        text-align: center;
+
+    }
+
+    .slick-active img {
+        filter: none;!important;
+    }
+
+    .slick-slide .btn {
+        background: rgb(174, 137, 89);
+        width: 175px;
+        height: 46px;
+        font-size: 18px;
+        font-family: "MullerBold", sans-serif;
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: center;
+        margin-top: 23px;
     }
 }
 
-@media screen and (max-width: 659px) {
+@media screen and (max-width: 827px) {
+    .slick-prev:before {
+        top: -10px;
+        left: -5px;
+    }
+
+    .slick-next:before {
+        top: -10px;
+        right: 10px;
+    }
+
+    .slick-slide img {
+        filter: none;!important;
+    }
+}
+
+    @media screen and (max-width: 659px) {
     #header {
         flex-wrap: wrap;
     }
@@ -413,6 +474,12 @@
 
 /* 425 - 767 */
 @media screen and (max-width: 767px) {
+    #header #menu.menu-open {
+        height: 100%;
+        top: 0;
+        margin-top: 0;
+    }
+
     #main {
         flex-wrap: wrap;
     }
@@ -450,17 +517,25 @@
         text-align: center;
     }
 
-    #block #block-container .block-info .block-image {
-        width: 20px;
+    #block #block-container .block-info {
+        margin-bottom: 10px;
     }
 
     #block #block-container .block-info .block-text {
-        font-size: 10px;
-        margin-left: 10px;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    #block #block-container .block-info .block-image {
+        width: 35px;
     }
 
     #block #block-container {
-        margin-top: -5px;
+        margin: -5px auto auto auto;
+        width: 302px;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        padding-bottom: 10px;
     }
 
     #info #info-container #info-title {
@@ -540,7 +615,7 @@
     }
 
     #masters #masters-container .our-masters {
-        width: 310px;
+        width: 355px;
     }
 
     .slick-dots {
@@ -583,28 +658,46 @@
         width: 290px;
     }
 
-    #reservation #reservation-content form {
+    #reservation-container {
+        overflow: scroll;
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+
+    #reservation-container #reservation #reservation-content form {
         width: 300px;
         justify-content: center;
     }
 
-    #reservation-title {
-        font-size: 15px;
+    #reservation-container #reservation #reservation-content #reservation-title {
+        font-size: 18px;
+        margin: 0 auto;
     }
 
-    #reservation #reservation-content {
+    #reservation-container #reservation #reservation-content {
         width: 300px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    #reservation {
+    #reservation-container #reservation #reservation-content #reserve-button {
+        margin-top: 40px;
+    }
+
+    #reservation-container #reservation #reservation-content #reserve-button .btn {
+        width: 222px;
+        height: 50px;
+        font-size: 17px;
+    }
+
+    #reservation-container #reservation {
         width: 296px;
     }
 
     #reservation-sent {
         padding: 20px;
+        width: 270px;
     }
 
     #reservation-sent-title {
@@ -613,12 +706,16 @@
 
     #reservation-sent-text {
         font-size: 15px;
-        width: 290px;
+        width: 260px;
         margin: 45px auto auto auto;
     }
 
     .slick-next:before {
-        right: -15px;
+        right: 0px;
+    }
+
+    .slick-list {
+        width: 275px;
     }
 }
 
@@ -667,17 +764,31 @@
         font-size: 13px;
     }
 
+    #info #info-container #info-info {
+        margin-top: 40px;
+    }
+
     #info #info-container #info-info #info-image {
         width: 350px;
     }
 
     #info #info-container #info-title {
         width: 300px;
-        font-size: 15px;
+        font-size: 20px;
     }
 
     #info #info-container #info-info #info-image .info-image-text {
         width: 290px;
+    }
+
+    #info #info-container #info-info #info-image .info-image-text-img {
+        width: 31px;
+        height: 28px;
+        text-align: center;
+    }
+
+    #info #info-container #info-info #info-image .info-image-text-img img {
+        text-align: center;
     }
 
     #info #info-container #info-info #info-image #info-image-img {
@@ -685,11 +796,11 @@
     }
 
     #info #info-container #info-info #info-image .info-image-text span {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     #info #info-container #info-info #info-text .info-text-text {
-        font-size: 11px;
+        font-size: 14px;
         width: 300px;
     }
 
@@ -699,7 +810,7 @@
 
     #instagram-info #instagram-info-container #instagram-title {
         width: 246px;
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .btn {
@@ -726,15 +837,19 @@
     }
 
     #price #price-container #services .prices .service .service-description .service-title {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     #price #price-container #services .prices .service .service-description .service-text {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     #price #price-container #services .prices .service .service-price {
-        font-size: 14px;
+        font-size: 15px;
+    }
+
+    #price #price-container #services .prices .service .service-description {
+        margin-right: 15px;
     }
 
     #price #price-container #services .prices .service {
@@ -747,7 +862,7 @@
     }
 
     #sale #sale-container #sale-text {
-        font-size: 15px;
+        font-size: 16px;
         width: 228px;
     }
 
@@ -761,15 +876,36 @@
 
     #masters #masters-container #masters-text {
         width: 300px;
-        font-size: 11px;
+        font-size: 14px;
     }
 
     #masters #masters-container .our-masters {
         width: 300px;
     }
 
-    #reservation {
-        width: 255px;
+    #reservation-container #reservation {
+        width: 230px;
+    }
+
+    #reservation-container #reservation #reservation-content {
+    width: 230px;
+    }
+
+    #reservation-container #reservation #reservation-content form {
+        width: 230px;
+    }
+
+    #reservation-sent-title {
+        font-size: 18px;
+        width: 195px;
+    }
+
+    #reservation-sent-text {
+        width: 190px;
+    }
+
+    #reservation-sent {
+        width: 195px;
     }
 
     .slick-list {
@@ -783,6 +919,27 @@
     .slick-next:before {
         right: 5px;
     }
+
+    .slick-center img {
+        transform: none;
+        padding-top: 0;
+    }
+
+    .slick-active .master-info {
+        bottom: 12px;
+        font-size: 25px;
+    }
+
+    .slick-slide .master-info .master-name {
+        font-size: 25px;
+    }
+
+    .slick-active .master .master-image .black {
+        bottom: 0;
+        left: 0;
+        width: 292px;
+        height: 114px;
+    }
 }
 
 /*320-374*/
@@ -792,7 +949,7 @@
     }
 
     #header .logo {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     #header #number {
@@ -846,6 +1003,10 @@
         width: 280px;
     }
 
+    #sale #sale-container #sale-info {
+        width: 280px;
+    }
+
     #main #main-image {
         width: 200px;
         margin-top: -37px;
@@ -871,12 +1032,12 @@
         height: 260px;
     }
 
-    #reservation {
-        width: 205px;
+    #reservation-container #reservation {
+        width: 225px;
     }
 
     #reservation-sent-text {
-        width: 266px;
+        width: 189px;
     }
 
     .slick-list {

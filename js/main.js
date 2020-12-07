@@ -26,6 +26,7 @@ $(document).ready (() => {
 
     $('#burger').click(() => {
         $('#menu').toggleClass('menu-open');
+        $('#menu-cancel-close').css('display', 'block');
     });
 
     $('#header #menu a').click(() => {
@@ -44,7 +45,7 @@ $(document).ready (() => {
 
     $('.signup').click(() => {
         $('.our-masters').hide();
-        $('#reservation').css('display', 'flex');
+        $('#reservation-container').css('display', 'flex');
     })
 
     $('#submit').click(function (e) {
@@ -114,7 +115,7 @@ $(document).ready (() => {
             $.ajax({
                 method: 'POST',
                 uri: 'mail.php',
-                data: 'name=' + name.val() + '$reserveService=' + reserveService.val() + '$telefon=' + telefon.val() + '$date=' + date.val() + '$reserveMaster=' + reserveMaster.val() + '$reserveTime=' + reserveTime.val(),
+                data: 'name=' + name.val() + 'reserveService=' + reserveService.val() + 'telefon=' + telefon.val() + 'date=' + date.val() + 'reserveMaster=' + reserveMaster.val() + 'reserveTime=' + reserveTime.val(),
 
                 success: () => {
                     $('#reservation-sent').show();
@@ -130,11 +131,16 @@ $(document).ready (() => {
         }
     });
 
-    $('#reservation-cancel-close').click((e) => {
-        if (e.target.id === 'reservation-cancel-close') {
-            $('#reservation').hide();
+    $('#reservation-cancel-close, #reservation-container').click((e) => {
+        if (e.target.id === 'reservation-cancel-close' || e.target.id === 'reservation-container') {
+            $('#reservation-container').hide();
             $('.our-masters').show();
         }
     });
 
+    $('#menu-cancel-close').click((e) => {
+        if (e.target.id === 'menu-cancel-close') {
+            $('.menu-open').hide();
+        }
+    })
 });
